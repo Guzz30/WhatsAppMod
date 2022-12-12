@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #519872;
+}
+
+.navbar {
+  border-bottom: 2px solid #519872;
+}
+
+.navbar-brand,
+.card-title {
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
+}
+
+.card-title {
+  animation: tracking-in-expand-fwd 1s;
+  font-size: 2rem;
+}
+
+.card-subtitle {
+  font-family: "Chivo", sans-serif;
+  font-size: 0.7rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #519872;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.card-subtitle:hover {
+  color: #519872;
+}
+
+.btn-search {
+  background-color: #519872;
+  color: white;
+}
+
+.offcanvas-body {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-family: "Comfortaa", cursive;
+}
+
+.card {
+  width: 95%;
+  min-height: 1110px;
+  box-sizing: border-box;
+  display: flex;
+  margin: auto;
+  background-color: #212529;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.card-body {
+  margin-top: 30%;
+  font-family: "Comfortaa", cursive;
+  font-size: 0.9rem;
+}
+
+.card-text {
+  margin-top: 30px;
+}
+
+.download-section {
+  min-height: 200px;
+  min-width: 100%;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.ds {
+  color: #74ac8e;
+}
+
+.card-text {
+  padding: 0 20px 20px 20px;
+}
+
+.bi-whatsapp {
+  font-size: 2rem;
+}
+
+.jarak {
+  margin-top: 80px;
+}
+
+.carousel {
+  background-color: #212529;
+}
+
+.download {
+  min-height: 205px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.bg-custom {
+  background-color: #212529;
+  color: white;
+}
+
+.bg-custom-secondary {
+  background-color: #303337;
+  color: white;
+}
+
+.title-download {
+  text-align: center;
+  padding: 20px;
+  font-family: "Chivo", sans-serif;
+  font-size: 1.5rem;
+  color: #74ac8e;
+}
+
+.btn-custom {
+  color: white;
+  padding: 12px 32px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-custom:hover {
+  background: rgba(48, 51, 55, 0.46);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(48, 51, 55, 1);
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.subtitle-download {
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.footer {
+  width: 100%;
+  min-width: 100px;
+  background-color: #212529;
+  position: absolute;
+  margin-top: 200px;
+  color: #999;
+  text-align: center;
+  font-size: 0.6rem;
+  padding: 30px;
+  line-height: 1px;
+}
+
+/* Animasi */
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
